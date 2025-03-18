@@ -1,0 +1,2 @@
+int64 traffic_mirror_id
+tier4_perception_msgs/TrafficLightElement[] elements

@@ -29,6 +29,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/traffic_light/TrafficLightRoiArray.msg"
   "msg/traffic_light/TrafficSignal.msg"
   "msg/traffic_light/TrafficSignalArray.msg"
+
+  "msg/traffic_mirror/TrafficMirrorElement.msg"
+  "msg/traffic_mirror/TrafficMirrorRoi.msg"
+  "msg/traffic_mirror/TrafficMirrorRoiArray.msg"
+  "msg/traffic_mirror/TrafficMirrorSignal.msg"
+  "msg/traffic_mirror/TrafficMirrorSignalArray.msg"
+  
   DEPENDENCIES
     autoware_auto_perception_msgs
     builtin_interfaces
